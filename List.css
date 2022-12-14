@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181D31;
+    height: 120px;
+    align-items: center;
+    min-width: 490px;
+    position: sticky;
+}
+
+.logo img{
+    width: 85px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    margin-right: 70px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.LI {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.List {
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #181D31;
+    background-color: #678983;
+}
+
+.Home {
+    padding: 20px;
+    background-color: #181D31;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #F0E9D2;
+}
+
+.Ongoing {
+    padding: 20px;
+    background-color: #181D31;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #F0E9D2;
+}
+
+li .List:hover {
+    padding: 20px;
+    background-color: #678983;
+    transition: 0.4s;
+    color: #181D31;
+}
+
+li .Ongoing:hover {
+    padding: 20px;
+    background-color: #678983;
+    transition: 0.4s;
+    color: #181D31;
+}
